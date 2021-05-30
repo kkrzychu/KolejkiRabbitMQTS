@@ -21,7 +21,7 @@ export function consumer(connection: any) {
                 console.log(JSON.parse(msg.content));
             }
         }, {
-            noAck: false
+            noAck: true
         });
     });
 }

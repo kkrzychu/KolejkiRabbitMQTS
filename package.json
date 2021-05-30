@@ -4,8 +4,10 @@
   "description": "",
   "main": "PersonalDataService.js",
   "scripts": {
-    "start": "node dist/PersonalDataService.js",
-    "dev": "nodemon src/PersonalDataService.ts",
+    "start1": "node dist/PersonalDataService.js",
+    "start2": "node dist/GatherDataService.js",
+    "dev1": "nodemon src/PersonalDataService.ts",
+    "dev2": "nodemon src/GatherDataService.ts",
     "build": "tsc -p .",
     "test": "mocha dist/test"
   },

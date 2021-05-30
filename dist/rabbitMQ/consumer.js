@@ -16,7 +16,6 @@ function consumer(connection) {
             if (msg != null) {
                 console.log("---> Received message [" + num++ + "]");
                 console.log(JSON.parse(msg.content));
-                // channel.ack(msg);
             }
         }, {
             noAck: true

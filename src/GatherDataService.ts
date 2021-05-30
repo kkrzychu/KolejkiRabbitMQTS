@@ -10,3 +10,4 @@ amqp.connect('amqp://localhost', function (err, conn) {
     consumer(conn);
 });
 
+ 
